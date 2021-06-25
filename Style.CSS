@@ -7,7 +7,7 @@
 body {
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.459)),
-    url(/JS-Calculator/34328.jpg);
+    url(./34328.jpg);
   backdrop-filter: blur(8px);
 
   background-position: center;
@@ -17,7 +17,6 @@ body {
 .calculator {
   display: flex;
   justify-content: center;
-  padding-top: 20%;
 }
 
 .buttons {
@@ -48,10 +47,18 @@ button:hover {
 }
 
 #input {
-  background-color: black;
+  backdrop-filter: blur(50px);
+  border: #161a1d;
+
+  background-position: center;
+  background-attachment: fixed;
   color: blanchedalmond;
   height: 10vh;
-  width: 50%;
+  width: 38%;
+  font-family: sans-serif;
+  font-size: 150%;
+  margin-left: 30%;
+  margin-top: 10%;
   display: flex;
   justify-content: center;
   align-items: center;
